@@ -1,0 +1,26 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 960px;
+
+    font-family: 'Roboto', sans-serif;
+    background: var(--color-slate-300, #d5e1ef);
+}
+
+.card-container {
+    display: flex;
+    padding: var(--spacing-200, 16px) var(--spacing-200, 16px) var(--spacing-500, 40px) var(--spacing-200, 16px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-300, 24px);
+}
